@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "Complete React project",
+      "description": "Finish the remaining features of the React project.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2024-09-30",
+      "assignedTo": "John Doe",
+      "userId": 101
+    },
+    {
+      "id": 2,
+      "title": "Prepare presentation for client",
+      "description": "Prepare slides for the upcoming client presentation.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2024-10-05",
+      "assignedTo": "Jane Smith",
+      "userId": 102
+    },
+    {
+      "id": 3,
+      "title": "Fix bugs in API integration",
+      "description": "Resolve issues related to the API connection in the app.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2024-09-25",
+      "assignedTo": "Michael Brown",
+      "userId": 103
+    },
+    {
+      "id": 4,
+      "title": "Update documentation",
+      "description": "Add details on recent changes to the app in the documentation.",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2024-09-15",
+      "assignedTo": "Alice Johnson",
+      "userId": 104
+    },
+    {
+      "id": 5,
+      "title": "Test new features",
+      "description": "Run tests on the newly implemented features before the next release.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2024-10-01",
+      "assignedTo": "Emily Davis",
+      "userId": 105
+    }
+  ]
+  
