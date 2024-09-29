@@ -5,14 +5,11 @@ import LanguageBtn from './LanguageBtn'
 function Welcome() {
   return (
     <>
-    <div className='flex justify-between items-start'>
-    <div className='flex gap-3 items-center mb-5'>
+    <div className='flex justify-between items-start mb-5'>
+    <div className='flex gap-3 items-center flex-nowrap'>
+        <img src={logo} alt="Logo" className='w-28' />
         <div>
-            <img src={logo} alt="Logo" className='w-10 h-10' />
-        </div>
-        <div>
-            <p className='text-xs text-blue-500'>Good Morning</p>
-            <h1 className='text-sm font-medium text-gray-600'>John Doe</h1>
+            <h1 className='text-lg font-semibold text-gray-600 text-nowrap'>John Doe</h1>
         </div>
     </div>
         <div className='flex gap-3 items-center'>

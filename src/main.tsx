@@ -10,6 +10,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import TransactionsHistoryPage from './pages/TransactionsHistoryPage.tsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/cashInConfirmPage",
     element: <CashInConfirmPage/>,
+  },
+  {
+    path: "/transactionsHistory",
+    element: <TransactionsHistoryPage/>,
   },
 ]);
 
