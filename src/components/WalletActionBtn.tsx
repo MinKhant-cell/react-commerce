@@ -2,11 +2,9 @@ import { ArrowDownRightIcon } from "@heroicons/react/16/solid"
 
 function WalletActionBtn({name,icon}) {
   return (
-    <div className='p-2 flex gap-3 border border-gray-200 bg-white rounded-lg shadow-sm'>
-        <div>
+    <div className='p-2 flex items-center gap-3 border border-gray-200 bg-white rounded-lg shadow-sm'>
             {icon}
-        </div>
-        <h1>{name}</h1>
+        <h1 className="text-sm text-gray-500">{name}</h1>
     </div>
   )
 }

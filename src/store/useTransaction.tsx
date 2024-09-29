@@ -23,20 +23,7 @@ const useTransaction = create((set) => ({
           date: '2024-09-29T11:45:00Z',
           description: 'Salary credit',
         },
-        {
-          id: 4,
-          type: 'withdrawal',
-          amount: 50,
-          date: '2024-09-30T18:20:00Z',
-          description: 'Dinner at restaurant',
-        },
-        {
-          id: 5,
-          type: 'deposit',
-          amount: 200,
-          date: '2024-10-01T09:10:00Z',
-          description: 'Freelance work payment',
-        },
+        
       ],
 }))
 
